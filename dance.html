@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<audio autoplay>
+<audio controls autoplay>
     <source src="audio.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
@@ -14,7 +14,7 @@
 </head>
 <body class="body-dance">
     <div class="video">
-        <video loop muted autoplay oncanplay="$(this)[0].play()">
+        <video loop muted autoplay oncanplay="$(this)[0].play()" height="500px" width="200px">
             <source src="guy_dancing.mp4" type="video/mp4">
             Your browser does not support HTML video.
         </video>
